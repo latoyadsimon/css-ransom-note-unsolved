@@ -1,1 +1,3 @@
 use js to randomize text colors, text size, font family, font weight, bg colors, text transformations, text decorations
+--js was already included for these items, it was just commented out
+isBold only adds bold and normal, need to add 400 and 700

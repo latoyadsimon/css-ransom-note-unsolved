@@ -70,7 +70,8 @@ body {
 
 .whyWLetter {
   font-size: 72px;
-  font-weight: bold;
+  /* font-weight: bold; */
+  font-weight: 400;
   color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
@@ -79,7 +80,8 @@ body {
 
 .whyHLetter {
   font-size: 30px;
-  font-weight: bold;
+  /* font-weight: bold; */
+  font-weight: 700;
   color: darkgoldenrod;
   text-decoration: overline;
   text-transform: lowercase;
