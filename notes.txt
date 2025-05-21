@@ -1,0 +1,1 @@
+use js to randomize text colors, text size, font family, font weight, bg colors, text transformations, text decorations

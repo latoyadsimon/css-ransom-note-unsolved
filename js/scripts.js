@@ -148,21 +148,25 @@ document.addEventListener("DOMContentLoaded", () => {
     const fontFamily = fontsArr[getRandomNumber(fontsArr.length)];
 
     element.style.transform = `rotate(${degValue}deg) skew(${skewArr[0]}deg, ${skewArr[1]}deg)`;
-    // element.style.borderColor = `#${
-    //   letterColors[letterColors.length - 1 - index]
-    // }`;
-    // element.style[borderToPosition] = `${positionOffsetValue}px`;
+    // below here is commented out aleady
+    element.style.borderColor = `#${
+      letterColors[letterColors.length - 1 - index]
+    }`;
+    element.style[borderToPosition] = `${positionOffsetValue}px`;
 
-    // if (index > 2) {
-    //   element.style.color = `#${letterColors[index]}`;
-    //   element.style.fontSize = `${fontSizeArr[index]}px`;
-    //   element.style.fontWeight = isBold;
-    //   element.style.textDecoration = decoration;
-    //   element.style.textTransform = transform;
-    //   element.style.fontFamily = `'${fontFamily}', sans-serif`;
-    // }
+    if (index > 2) {
+      element.style.color = `#${letterColors[index]}`;
+      element.style.fontSize = `${fontSizeArr[index]}px`;
+      element.style.fontWeight = isBold;
+      element.style.textDecoration = decoration;
+      element.style.textTransform = transform;
+      element.style.fontFamily = `'${fontFamily}', sans-serif`;
+    }
 
-    // element.style.backgroundColor = `#${getRandomColor()}`;
+    element.style.backgroundColor = `#${getRandomColor()}`;
+
+    // above here is commented out already
+    //everything I already needed was just commented out, code works now.
 
     element.addEventListener("mouseover", (e) => {
       e.target.style.transform = `rotate(${degValue}deg) skew(${skewArr[0]}deg, ${skewArr[1]}deg) scale(1.2)`;
