@@ -23,7 +23,14 @@ const fontSizeArr = [
   48, 42, 48, 45, 44,
 ];
 
-const fontsArr = ["Piazzolla", "Ceviche One", "Raleway Dots"];
+const fontsArr = [
+  "Piazzolla",
+  "Ceviche One",
+  "Raleway Dots",
+  "Playpen Sans Deva",
+  "Oswald",
+  "Poetsen One",
+];
 
 const textDecorationArr = ["underline", "line-through", "overline", "none"];
 const textTransformArr = ["uppercase", "lowercase"];
