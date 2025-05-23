@@ -82,7 +82,7 @@ span.whyWLetter {
 }
 
 span.whyHLetter {
-  border-color: rgb(142, 220, 23);
+  border-color: #8edc17;
   top: 18px;
   background-color: rgb(225, 236, 29);
   font-size: 30px;
@@ -107,7 +107,7 @@ span.whyYLetter {
 /* DID word */
 
 span.didDLetter {
-  border-color: rgb(158, 141, 174);
+  border-color: #9e8dae;
   top: 7px;
   color: rgb(137, 173, 71);
   font-size: 48px;
@@ -119,7 +119,7 @@ span.didDLetter {
 }
 
 span.didILetter {
-  border-color: rgb(45, 104, 204);
+  border-color: #2d68cc;
   bottom: 10px;
   color: rgb(152, 63, 55);
   font-size: 49px;
@@ -131,7 +131,7 @@ span.didILetter {
 }
 
 span.didDTwoLetter {
-  border-color: rgb(235, 44, 26);
+  border-color: #eb2c1a;
   bottom: 19px;
   color: rgb(150, 59, 82);
   font-size: 40px;
@@ -145,7 +145,7 @@ span.didDTwoLetter {
 /* THE word */
 
 span.theTLetter {
-  border-color: rgb(77, 116, 192);
+  border-color: #4d74c0;
   top: 0px;
   color: rgb(100, 88, 146);
   font-size: 46px;
@@ -157,7 +157,7 @@ span.theTLetter {
 }
 
 span.theHLetter {
-  border-color: rgb(84, 185, 166);
+  border-color: #54b9a6;
   bottom: 19px;
   color: rgb(119, 197, 2);
   font-size: 44px;
@@ -169,7 +169,7 @@ span.theHLetter {
 }
 
 span.theELetter {
-  border-color: rgb(107, 104, 74);
+  border-color: #6b684a;
   top: 0px;
   color: rgb(197, 42, 176);
   font-size: 41px;
@@ -183,7 +183,7 @@ span.theELetter {
 /* FRONT-END word */
 
 span.frontendFLetter {
-  border-color: rgb(117, 250, 151);
+  border-color: #75fa97;
   bottom: 19px;
   color: rgb(103, 29, 151);
   font-size: 40px;
@@ -195,7 +195,7 @@ span.frontendFLetter {
 }
 
 span.frontendRLetter {
-  border-color: rgb(150, 242, 127);
+  border-color: #96f27f;
   top: 16px;
   color: rgb(49, 84, 16);
   font-size: 45px;
@@ -207,7 +207,7 @@ span.frontendRLetter {
 }
 
 span.frontendOLetter {
-  border-color: rgb(230, 207, 98);
+  border-color: #e6cf62;
   bottom: 12px;
   color: rgb(22, 109, 92);
   font-size: 48px;
@@ -219,7 +219,7 @@ span.frontendOLetter {
 }
 
 span.frontendNLetter {
-  border-color: rgb(16, 122, 105);
+  border-color: #107a69;
   bottom: 4px;
   color: rgb(132, 96, 236);
   font-size: 47px;
@@ -231,7 +231,7 @@ span.frontendNLetter {
 }
 
 span.frontendTLetter {
-  border-color: rgb(225, 132, 120);
+  border-color: #e18478;
   top: 7px;
   color: rgb(59, 64, 95);
   font-size: 43px;
@@ -243,7 +243,7 @@ span.frontendTLetter {
 }
 
 span.frontendELetter {
-  border-color: rgb(242, 252, 127);
+  border-color: #f2fc7f;
   top: 9px;
   color: rgb(207, 161, 167);
   font-size: 44px;
@@ -255,7 +255,7 @@ span.frontendELetter {
 }
 
 span.frontendNTwoLetter {
-  border-color: rgb(34, 164, 217);
+  border-color: #22a4d9;
   top: 19px;
   color: rgb(78, 242, 202);
   font-size: 43px;
@@ -267,7 +267,7 @@ span.frontendNTwoLetter {
 }
 
 span.frontendDLetter {
-  border-color: rgb(194, 211, 60);
+  border-color: #c2d33c;
   top: 12px;
   color: rgb(130, 139, 191);
   font-size: 48px;
@@ -281,7 +281,7 @@ span.frontendDLetter {
 /* DEVELOPER word */
 
 span.developerDLetter {
-  border-color: rgb(20, 190, 228);
+  border-color: #14bee4;
   top: 3px;
   color: rgb(112, 139, 165);
   font-size: 40px;
@@ -292,7 +292,7 @@ span.developerDLetter {
   background-color: rgb(240, 158, 167);
 }
 span.developerELetter {
-  border-color: rgb(162, 136, 170);
+  border-color: #a288aa;
   bottom: 7px;
   color: rgb(123, 107, 154);
   font-size: 47px;
@@ -303,7 +303,7 @@ span.developerELetter {
   background-color: rgb(214, 39, 68);
 }
 span.developerVLetter {
-  border-color: rgb(239, 5, 90);
+  border-color: #ef055a;
   bottom: 2px;
   color: rgb(245, 115, 231);
   font-size: 40px;
@@ -314,7 +314,7 @@ span.developerVLetter {
   background-color: rgb(40, 113, 127);
 }
 span.developerETwoLetter {
-  border-color: rgb(199, 138, 12);
+  border-color: #c78a0c;
   bottom: 3px;
   color: rgb(76, 152, 107);
   font-size: 44px;
@@ -325,7 +325,7 @@ span.developerETwoLetter {
   background-color: rgb(31, 239, 190);
 }
 span.developerLLetter {
-  border-color: rgb(136, 195, 208);
+  border-color: #88c3d0;
   bottom: 12px;
   color: rgb(130, 87, 117);
   font-size: 40px;
@@ -336,7 +336,7 @@ span.developerLLetter {
   background-color: rgb(159, 91, 182);
 }
 span.developerOLetter {
-  border-color: rgb(53, 1, 19);
+  border-color: #350113;
   bottom: 13px;
   color: rgb(34, 221, 136);
   font-size: 48px;
@@ -347,7 +347,7 @@ span.developerOLetter {
   background-color: rgb(172, 18, 22);
 }
 span.developerPLetter {
-  border-color: rgb(45, 154, 46);
+  border-color: #2d9a2e;
   top: 9px;
   color: rgb(188, 171, 228);
   font-size: 45px;
@@ -358,7 +358,7 @@ span.developerPLetter {
   background-color: rgb(90, 34, 59);
 }
 span.developerEThreeLetter {
-  border-color: rgb(196, 199, 84);
+  border-color: #c4c754;
   bottom: 13px;
   color: rgb(80, 183, 61);
   font-size: 44px;
@@ -369,7 +369,7 @@ span.developerEThreeLetter {
   background-color: rgb(110, 20, 59);
 }
 span.developerRLetter {
-  border-color: rgb(186, 180, 141);
+  border-color: #bab48d;
   bottom: 15px;
   color: rgb(99, 21, 196);
   font-size: 41px;
@@ -383,7 +383,7 @@ span.developerRLetter {
 /* TAKE word */
 
 span.takeTLetter {
-  border-color: rgb(183, 171, 233);
+  border-color: #b7abe9;
   bottom: 2px;
   color: rgb(72, 52, 204);
   font-size: 47px;
@@ -394,7 +394,7 @@ span.takeTLetter {
   background-color: rgb(194, 151, 174);
 }
 span.takeALetter {
-  border-color: rgb(245, 176, 10);
+  border-color: #f5b00a;
   bottom: 9px;
   color: rgb(233, 50, 216);
   font-size: 42px;
@@ -415,6 +415,7 @@ span.takeKLetter {
   background-color: rgb(96, 133, 103);
 }
 span.takeELetter {
+  border-color: #a0a0e8;
   top: 6px;
   color: rgb(185, 148, 145);
   font-size: 44px;
@@ -428,7 +429,7 @@ span.takeELetter {
 /* UP word */
 
 span.upULetter {
-  border-color: rgb(101, 101, 224);
+  border-color: #6565e0;
   top: 17px;
   color: rgb(36, 225, 135);
   font-size: 40px;
@@ -439,7 +440,7 @@ span.upULetter {
   background-color: rgb(44, 161, 44);
 }
 span.upPLetter {
-  border-color: rgb(194, 130, 117);
+  border-color: #c28275;
   top: 4px;
   color: rgb(100, 83, 215);
   font-size: 41px;
@@ -453,7 +454,7 @@ span.upPLetter {
 /* GARDENING word */
 
 span.gardeningGLetter {
-  border-color: rgb(43, 56, 157);
+  border-color: #2b389d;
   bottom: 11px;
   color: rgb(25, 80, 106);
   font-size: 41px;
@@ -464,7 +465,7 @@ span.gardeningGLetter {
   background-color: rgb(94, 197, 111);
 }
 span.gardeningALetter {
-  border-color: rgb(218, 125, 194);
+  border-color: #da7dc2;
   bottom: 5px;
   color: rgb(255, 13, 232);
   font-size: 44px;
@@ -475,7 +476,7 @@ span.gardeningALetter {
   background-color: rgb(28, 19, 236);
 }
 span.gardeningRLetter {
-  border-color: rgb(240, 221, 9);
+  border-color: #f0dd09;
   top: 0px;
   color: rgb(252, 141, 19);
   font-size: 47px;
@@ -486,7 +487,7 @@ span.gardeningRLetter {
   background-color: rgb(244, 51, 22);
 }
 span.gardeningDLetter {
-  border-color: rgb(228, 237, 75);
+  border-color: #e4ed4b;
   top: 4px;
   color: rgb(211, 12, 34);
   font-size: 45px;
@@ -497,7 +498,7 @@ span.gardeningDLetter {
   background-color: rgb(58, 242, 11);
 }
 span.gardeningELetter {
-  border-color: rgb(68, 177, 53);
+  border-color: #44b135;
   bottom: 6px;
   color: rgb(198, 209, 7);
   font-size: 40px;
@@ -508,7 +509,7 @@ span.gardeningELetter {
   background-color: rgb(85, 44, 247);
 }
 span.gardeningNLetter {
-  border-color: rgb(182, 95, 103);
+  border-color: #b65f67;
   top: 0px;
   color: rgb(195, 63, 220);
   font-size: 44px;
@@ -519,7 +520,7 @@ span.gardeningNLetter {
   background-color: rgb(111, 149, 202);
 }
 span.gardeningILetter {
-  border-color: rgb(93, 217, 147);
+  border-color: #5dd993;
   top: 15px;
   color: rgb(194, 27, 216);
   font-size: 48px;
@@ -529,7 +530,7 @@ span.gardeningILetter {
   font-family: "Raleway Dots", sans-serif;
 }
 span.gardeningNTwoLetter {
-  border-color: rgb(17, 232, 84);
+  border-color: #11e854;
   top: 12px;
   color: rgb(215, 220, 236);
   font-size: 46px;
@@ -540,7 +541,7 @@ span.gardeningNTwoLetter {
   background-color: rgb(208, 43, 184);
 }
 span.gardeningGTwoLetter {
-  border-color: rgb(150, 111, 49);
+  border-color: #966f31;
   top: 14px;
   color: rgb(54, 104, 182);
   font-size: 48px;
@@ -554,7 +555,7 @@ span.gardeningGTwoLetter {
 /* BECAUSE word */
 
 span.becauseBLetter {
-  border-color: rgb(181, 59, 24);
+  border-color: #b53b18;
   bottom: 14px;
   color: rgb(204, 58, 230);
   font-size: 47px;
@@ -565,7 +566,7 @@ span.becauseBLetter {
   background-color: rgb(91, 251, 209);
 }
 span.becauseELetter {
-  border-color: rgb(24, 1, 108);
+  border-color: #18016c;
   top: 10px;
   color: rgb(20, 21, 97);
   font-size: 42px;
@@ -586,7 +587,7 @@ span.becauseCLetter {
   background-color: rgb(120, 98, 39);
 }
 span.becauseALetter {
-  border-color: rgb(108, 231, 225);
+  border-color: #6ce7e1;
   bottom: 16px;
   color: rgb(154, 68, 228);
   font-size: 44px;
@@ -597,7 +598,7 @@ span.becauseALetter {
   background-color: rgb(247, 46, 19);
 }
 span.becauseULetter {
-  border-color: rgb(227, 62, 36);
+  border-color: #e33e24;
   bottom: 2px;
   color: rgb(34, 42, 115);
   font-size: 49px;
@@ -608,7 +609,7 @@ span.becauseULetter {
   background-color: rgb(47, 169, 84);
 }
 span.becauseSLetter {
-  border-color: rgb(52, 242, 21);
+  border-color: #34f215;
   top: 6px;
   color: rgb(108, 54, 69);
   font-size: 41px;
@@ -619,7 +620,7 @@ span.becauseSLetter {
   background-color: rgb(75, 192, 78);
 }
 span.becauseETwoLetter {
-  border-color: rgb(93, 150, 77);
+  border-color: #5d964d;
   top: 3px;
   color: rgb(206, 255, 198);
   font-size: 41px;
@@ -633,7 +634,7 @@ span.becauseETwoLetter {
 /* THEY word */
 
 span.theyTLetter {
-  border-color: rgb(206, 255, 198);
+  border-color: #ceffc6;
   bottom: 18px;
   color: rgb(93, 150, 77);
   font-size: 46px;
@@ -644,7 +645,7 @@ span.theyTLetter {
   background-color: rgb(42, 135, 120);
 }
 span.theyHLetter {
-  border-color: rgb(108, 54, 69);
+  border-color: #6c3645;
   top: 7px;
   color: rgb(52, 242, 21);
   font-size: 40px;
@@ -655,7 +656,7 @@ span.theyHLetter {
   background-color: rgb(237, 79, 15);
 }
 span.theyELetter {
-  border-color: rgb(34, 42, 115);
+  border-color: #222a73;
   bottom: 12px;
   color: rgb(227, 62, 36);
   font-size: 40px;
@@ -666,7 +667,7 @@ span.theyELetter {
   background-color: rgb(98, 247, 251);
 }
 span.theyYLetter {
-  border-color: rgb(154, 68, 228);
+  border-color: #9a44e4;
   bottom: 10px;
   color: rgb(108, 231, 225);
   font-size: 47px;
@@ -680,7 +681,7 @@ span.theyYLetter {
 /* WANTED word */
 
 span.wantedWLetter {
-  border-color: rgb(47, 131, 57);
+  border-color: #2f8339;
   top: 8px;
   font-size: 45px;
   font-weight: normal;
@@ -690,7 +691,7 @@ span.wantedWLetter {
   background-color: rgb(179, 23, 146);
 }
 span.wantedALetter {
-  border-color: rgb(20, 21, 97);
+  border-color: #141561;
   top: 8px;
   color: rgb(24, 1, 108);
   font-size: 46px;
@@ -701,7 +702,7 @@ span.wantedALetter {
   background-color: rgb(50, 187, 78);
 }
 span.wantedNLetter {
-  border-color: rgb(204, 58, 230);
+  border-color: #cc3ae6;
   bottom: 17px;
   color: rgb(181, 59, 24);
   font-size: 48px;
@@ -712,7 +713,7 @@ span.wantedNLetter {
   background-color: rgb(242, 62, 82);
 }
 span.wantedTLetter {
-  border-color: rgb(112, 68, 82);
+  border-color: #704452;
   top: 8px;
   color: rgb(236, 193, 129);
   font-size: 46px;
@@ -723,7 +724,7 @@ span.wantedTLetter {
   background-color: rgb(128, 157, 226);
 }
 span.wantedELetter {
-  border-color: rgb(54, 104, 182);
+  border-color: #3668b6;
   top: 11px;
   color: rgb(150, 111, 49);
   font-size: 45px;
@@ -734,7 +735,7 @@ span.wantedELetter {
   background-color: rgb(98, 18, 149);
 }
 span.wantedDLetter {
-  border-color: rgb(215, 220, 236);
+  border-color: #d7dcec;
   top: 14px;
   color: rgb(17, 232, 84);
   font-size: 40px;
@@ -748,7 +749,7 @@ span.wantedDLetter {
 /* TO word */
 
 span.toTLetter {
-  border-color: rgb(194, 27, 216);
+  border-color: #c21bd8;
   top: 1px;
   color: rgb(93, 217, 147);
   font-size: 49px;
@@ -758,7 +759,7 @@ span.toTLetter {
   font-family: "Piazzolla", sans-serif;
 }
 span.toOLetter {
-  border-color: rgb(195, 63, 220);
+  border-color: #f2d0f9;
   top: 5px;
   color: rgb(182, 95, 103);
   font-size: 48px;
@@ -772,7 +773,7 @@ span.toOLetter {
 /* IMPROVE word */
 
 span.improveILetter {
-  border-color: rgb(198, 209, 7);
+  border-color: #c6d107;
   bottom: 11px;
   color: rgb(68, 177, 53);
   font-size: 43px;
@@ -783,7 +784,7 @@ span.improveILetter {
   background-color: rgb(184, 237, 141);
 }
 span.improveMLetter {
-  border-color: rgb(211, 12, 34);
+  border-color: #d30c22;
   top: 11px;
   color: rgb(228, 237, 75);
   font-size: 40px;
@@ -794,7 +795,7 @@ span.improveMLetter {
   background-color: rgb(238, 224, 243);
 }
 span.improvePLetter {
-  border-color: rgb(252, 141, 19);
+  border-color: #fc8d13;
   top: 8px;
   color: rgb(240, 221, 9);
   font-size: 43px;
@@ -805,7 +806,7 @@ span.improvePLetter {
   background-color: rgb(228, 178, 69);
 }
 span.improveRLetter {
-  border-color: rgb(255, 13, 232);
+  border-color: #ff0de8;
   top: 3px;
   color: rgb(218, 125, 194);
   font-size: 45px;
@@ -816,7 +817,7 @@ span.improveRLetter {
   background-color: rgb(42, 22, 154);
 }
 span.improveOLetter {
-  border-color: rgb(25, 80, 106);
+  border-color: #19506a;
   bottom: 14px;
   color: rgb(43, 56, 157);
   font-size: 47px;
@@ -827,7 +828,7 @@ span.improveOLetter {
   background-color: rgb(198, 2, 34);
 }
 span.improveVLetter {
-  border-color: rgb(100, 83, 215);
+  border-color: #6453d7;
   bottom: 2px;
   color: rgb(194, 130, 117);
   font-size: 48px;
@@ -838,7 +839,7 @@ span.improveVLetter {
   background-color: rgb(65, 222, 177);
 }
 span.improveELetter {
-  border-color: rgb(36, 225, 135);
+  border-color: #24e187;
   top: 10px;
   color: rgb(101, 101, 224);
   font-size: 49px;
@@ -852,7 +853,7 @@ span.improveELetter {
 /* THEIR word */
 
 span.theirTLetter {
-  border-color: rgb(185, 148, 145);
+  border-color: #b99491;
   bottom: 19px;
   font-size: 48px;
   font-weight: normal;
@@ -862,7 +863,7 @@ span.theirTLetter {
   background-color: rgb(120, 222, 48);
 }
 span.theirHLetter {
-  border-color: rgb(121, 62, 71);
+  border-color: #793e47;
   top: 11px;
   font-size: 43px;
   font-weight: bold;
@@ -872,7 +873,7 @@ span.theirHLetter {
   background-color: rgb(230, 195, 180);
 }
 span.theirELetter {
-  border-color: rgb(233, 50, 216);
+  border-color: #e932d8;
   top: 11px;
   color: rgb(245, 176, 10);
   font-size: 45px;
@@ -883,7 +884,7 @@ span.theirELetter {
   background-color: rgb(41, 44, 199);
 }
 span.theirILetter {
-  border-color: rgb(72, 52, 204);
+  border-color: #4834cc;
   top: 7px;
   color: rgb(183, 171, 233);
   font-size: 47px;
@@ -894,7 +895,7 @@ span.theirILetter {
   background-color: rgb(180, 237, 172);
 }
 span.theirRLetter {
-  border-color: rgb(99, 21, 196);
+  border-color: #6315c4;
   top: 19px;
   color: rgb(186, 180, 141);
   font-size: 49px;
@@ -908,7 +909,7 @@ span.theirRLetter {
 /* ROOT word */
 
 span.rootRLetter {
-  border-color: rgb(80, 183, 61);
+  border-color: #50b73d;
   top: 0px;
   color: rgb(196, 199, 84);
   font-size: 47px;
@@ -919,7 +920,7 @@ span.rootRLetter {
   background-color: rgb(198, 22, 149);
 }
 span.rootOLetter {
-  border-color: rgb(188, 171, 228);
+  border-color: #bcabe4;
   bottom: 15px;
   color: rgb(45, 154, 46);
   font-size: 41px;
@@ -930,7 +931,7 @@ span.rootOLetter {
   background-color: rgb(119, 250, 132);
 }
 span.rootOTwoLetter {
-  border-color: rgb(34, 221, 136);
+  border-color: #9ff1cc;
   bottom: 10px;
   color: rgb(53, 1, 19);
   font-size: 41px;
@@ -941,7 +942,7 @@ span.rootOTwoLetter {
   background-color: rgb(180, 12, 69);
 }
 span.rootTLetter {
-  border-color: rgb(130, 87, 117);
+  border-color: #825775;
   top: 3px;
   color: rgb(136, 195, 208);
   font-size: 41px;
@@ -955,7 +956,7 @@ span.rootTLetter {
 /* SKILLS word */
 
 span.skillsSLetter {
-  border-color: rgb(76, 152, 107);
+  border-color: #4c986b;
   bottom: 17px;
   color: rgb(199, 138, 12);
   font-size: 43px;
@@ -966,7 +967,7 @@ span.skillsSLetter {
   background-color: rgb(82, 251, 125);
 }
 span.skillsKLetter {
-  border-color: rgb(245, 115, 231);
+  border-color: #f573e7;
   bottom: 2px;
   color: rgb(239, 5, 90);
   font-size: 43px;
@@ -977,7 +978,7 @@ span.skillsKLetter {
   background-color: rgb(20, 139, 70);
 }
 span.skillsILetter {
-  border-color: rgb(123, 107, 154);
+  border-color: #7b6b9a;
   top: 18px;
   color: rgb(162, 136, 170);
   font-size: 43px;
@@ -988,7 +989,7 @@ span.skillsILetter {
   background-color: rgb(157, 196, 134);
 }
 span.skillsLLetter {
-  border-color: rgb(112, 139, 165);
+  border-color: #708ba5;
   top: 11px;
   color: rgb(20, 190, 228);
   font-size: 43px;
@@ -999,15 +1000,17 @@ span.skillsLLetter {
   background-color: rgb(58, 118, 198);
 }
 span.skillsLTwoLetter {
-  font-size: 60px;
+  border-color: #f7d307;
+  top: 33px;
+  font-size: 69px;
   font-weight: 700;
-  color: coral;
+  color: rgb(120, 36, 6);
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Raleway Dots", sans-serif;
 }
 span.skillsSTwoLetter {
-  border-color: rgb(78, 242, 202);
+  border-color: #4ef2ca;
   bottom: 2px;
   color: rgb(34, 164, 217);
   font-size: 49px;
@@ -1021,7 +1024,7 @@ span.skillsSTwoLetter {
 /* SYMBOLS */
 
 span.hyphen {
-  border-color: rgb(105, 65, 169);
+  border-color: #6941a9;
   top: 6px;
   color: rgb(187, 215, 143);
   font-size: 42px;
@@ -1032,7 +1035,7 @@ span.hyphen {
   background-color: rgb(16, 43, 124);
 }
 span.exclamation-mark {
-  border-color: rgb(207, 161, 167);
+  border-color: #cfa1a7;
   top: 3px;
   color: rgb(242, 252, 127);
   font-size: 40px;
@@ -1043,7 +1046,7 @@ span.exclamation-mark {
   background-color: rgb(252, 144, 232);
 }
 span.question-mark {
-  border-color: rgb(236, 193, 129);
+  border-color: #ecc181;
   top: 3px;
   color: rgb(112, 68, 82);
   font-size: 44px;
