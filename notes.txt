@@ -5,8 +5,9 @@ isBold only adds bold and normal, need to add 400 and 700
 -first attempt at turn in failed: failed because js was not the point css is,  will attempt again
 
 -use replit and codepen
+---replit now charges, when did that happen????
 
-transform is already  set by the code 
+transform is already set by the code -- what makes the squares squew
 -we need to set everything that was commented out:
 borderColor
 borderToPosition  - top or bottom
@@ -18,3 +19,7 @@ textDecoration
 textTransform
 fontFamily
 backgroundColor
+
+-border-color wasn't working, 
+--because the border was only defined in the .word > span style.
+---added span to all the css styles

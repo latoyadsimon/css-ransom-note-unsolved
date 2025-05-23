@@ -66,34 +66,34 @@ body {
   background-color: lightyellow;
 } */
 
+/* adding span on each so that the border-color property works */
+
 /* Sample CSS for the WHY word */
 
-.whyWLetter {
-  border-color: rgb(65, 180, 101);
+span.whyWLetter {
+  border-color: #41b465;
   top: 12px;
   font-size: 72px;
-  /* font-weight: bold; */
-  font-weight: 400;
+  font-weight: bold;
   color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
   font-family: "Piazolla", sans-serif;
 }
 
-.whyHLetter {
+span.whyHLetter {
   border-color: rgb(142, 220, 23);
   top: 18px;
   background-color: rgb(225, 236, 29);
   font-size: 30px;
-  /* font-weight: bold; */
-  font-weight: 700;
+  font-weight: bold;
   color: darkgoldenrod;
   text-decoration: overline;
   text-transform: lowercase;
   font-family: "Ceviche One", sans-serif;
 }
 
-.whyYLetter {
+span.whyYLetter {
   top: 17px;
   background-color: rgb(94, 217, 226);
   font-size: 60px;
@@ -106,13 +106,7 @@ body {
 
 /* DID word */
 
-.didDLetter {
-  /* font-size: 48px;
-  font-weight: bold;
-  color: rgb(137,173,71);
-  text-decoration: none;
-  text-transform: lowercase;
-  font-family: "Piazzolla", sans-serif; */
+span.didDLetter {
   border-color: rgb(158, 141, 174);
   top: 7px;
   color: rgb(137, 173, 71);
@@ -120,23 +114,23 @@ body {
   font-weight: bold;
   text-decoration: none;
   text-transform: lowercase;
-  font-family: Piazzolla, sans-serif;
+  font-family: "Piazzolla", sans-serif;
   background-color: rgb(80, 65, 64);
 }
 
-.didILetter {
+span.didILetter {
   border-color: rgb(45, 104, 204);
   bottom: 10px;
   color: rgb(152, 63, 55);
   font-size: 49px;
-  font-weight: normal;
+  font-weight: 700;
   text-decoration: underline;
   text-transform: lowercase;
-  font-family: Piazzolla, sans-serif;
+  font-family: "Piazzolla", sans-serif;
   background-color: rgb(18, 108, 171);
 }
 
-.didDTwoLetter {
+span.didDTwoLetter {
   border-color: rgb(235, 44, 26);
   bottom: 19px;
   color: rgb(150, 59, 82);
@@ -144,13 +138,13 @@ body {
   font-weight: bold;
   text-decoration: line-through;
   text-transform: uppercase;
-  font-family: Piazzolla, sans-serif;
+  font-family: "Piazzolla", sans-serif;
   background-color: rgb(197, 231, 23);
 }
 
 /* THE word */
 
-.theTLetter {
+span.theTLetter {
   border-color: rgb(77, 116, 192);
   top: 0px;
   color: rgb(100, 88, 146);
@@ -158,11 +152,11 @@ body {
   font-weight: bold;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: Piazzolla, sans-serif;
+  font-family: "Piazzolla", sans-serif;
   background-color: rgb(86, 243, 238);
 }
 
-.theHLetter {
+span.theHLetter {
   border-color: rgb(84, 185, 166);
   bottom: 19px;
   color: rgb(119, 197, 2);
@@ -174,7 +168,7 @@ body {
   background-color: rgb(243, 72, 53);
 }
 
-.theELetter {
+span.theELetter {
   border-color: rgb(107, 104, 74);
   top: 0px;
   color: rgb(197, 42, 176);
@@ -182,13 +176,13 @@ body {
   font-weight: normal;
   text-decoration: underline;
   text-transform: lowercase;
-  font-family: Piazzolla, sans-serif;
+  font-family: "Piazzolla", sans-serif;
   background-color: rgb(226, 96, 3);
 }
 
 /* FRONT-END word */
 
-.frontendFLetter {
+span.frontendFLetter {
   border-color: rgb(117, 250, 151);
   bottom: 19px;
   color: rgb(103, 29, 151);
@@ -196,11 +190,11 @@ body {
   font-weight: bold;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: rgb(135, 96, 71);
 }
 
-.frontendRLetter {
+span.frontendRLetter {
   border-color: rgb(150, 242, 127);
   top: 16px;
   color: rgb(49, 84, 16);
@@ -208,11 +202,11 @@ body {
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: rgb(218, 26, 76);
 }
 
-.frontendOLetter {
+span.frontendOLetter {
   border-color: rgb(230, 207, 98);
   bottom: 12px;
   color: rgb(22, 109, 92);
@@ -224,7 +218,7 @@ body {
   background-color: rgb(135, 173, 95);
 }
 
-.frontendNLetter {
+span.frontendNLetter {
   border-color: rgb(16, 122, 105);
   bottom: 4px;
   color: rgb(132, 96, 236);
@@ -236,7 +230,7 @@ body {
   background-color: rgb(51, 98, 18);
 }
 
-.frontendTLetter {
+span.frontendTLetter {
   border-color: rgb(225, 132, 120);
   top: 7px;
   color: rgb(59, 64, 95);
@@ -244,11 +238,11 @@ body {
   font-weight: bold;
   text-decoration: underline;
   text-transform: lowercase;
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: rgb(175, 18, 85);
 }
 
-.frontendELetter {
+span.frontendELetter {
   border-color: rgb(242, 252, 127);
   top: 9px;
   color: rgb(207, 161, 167);
@@ -260,7 +254,7 @@ body {
   background-color: rgb(155, 73, 252);
 }
 
-.frontendNTwoLetter {
+span.frontendNTwoLetter {
   border-color: rgb(34, 164, 217);
   top: 19px;
   color: rgb(78, 242, 202);
@@ -272,7 +266,7 @@ body {
   background-color: rgb(166, 9, 89);
 }
 
-.frontendDLetter {
+span.frontendDLetter {
   border-color: rgb(194, 211, 60);
   top: 12px;
   color: rgb(130, 139, 191);
@@ -280,24 +274,24 @@ body {
   font-weight: normal;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: rgb(211, 6, 0);
 }
 
 /* DEVELOPER word */
 
-.developerDLetter {
+span.developerDLetter {
   border-color: rgb(20, 190, 228);
   top: 3px;
   color: rgb(112, 139, 165);
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 700;
   text-decoration: underline;
   text-transform: lowercase;
   font-family: "Raleway Dots", sans-serif;
-  background-color: rgb(211, 11, 34);
+  background-color: rgb(240, 158, 167);
 }
-.developerELetter {
+span.developerELetter {
   border-color: rgb(162, 136, 170);
   bottom: 7px;
   color: rgb(123, 107, 154);
@@ -308,7 +302,7 @@ body {
   font-family: "Ceviche One", sans-serif;
   background-color: rgb(214, 39, 68);
 }
-.developerVLetter {
+span.developerVLetter {
   border-color: rgb(239, 5, 90);
   bottom: 2px;
   color: rgb(245, 115, 231);
@@ -319,7 +313,7 @@ body {
   font-family: "Poetsen One", sans-serif;
   background-color: rgb(40, 113, 127);
 }
-.developerETwoLetter {
+span.developerETwoLetter {
   border-color: rgb(199, 138, 12);
   bottom: 3px;
   color: rgb(76, 152, 107);
@@ -330,7 +324,7 @@ body {
   font-family: "Ceviche One", sans-serif;
   background-color: rgb(31, 239, 190);
 }
-.developerLLetter {
+span.developerLLetter {
   border-color: rgb(136, 195, 208);
   bottom: 12px;
   color: rgb(130, 87, 117);
@@ -338,10 +332,10 @@ body {
   font-weight: bold;
   text-decoration: none;
   text-transform: lowercase;
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: rgb(159, 91, 182);
 }
-.developerOLetter {
+span.developerOLetter {
   border-color: rgb(53, 1, 19);
   bottom: 13px;
   color: rgb(34, 221, 136);
@@ -352,7 +346,7 @@ body {
   font-family: "Playpen Sans Deva", sans-serif;
   background-color: rgb(172, 18, 22);
 }
-.developerPLetter {
+span.developerPLetter {
   border-color: rgb(45, 154, 46);
   top: 9px;
   color: rgb(188, 171, 228);
@@ -360,10 +354,10 @@ body {
   font-weight: bold;
   text-decoration: none;
   text-transform: lowercase;
-  font-family: Piazzolla, sans-serif;
+  font-family: "Piazzolla", sans-serif;
   background-color: rgb(90, 34, 59);
 }
-.developerEThreeLetter {
+span.developerEThreeLetter {
   border-color: rgb(196, 199, 84);
   bottom: 13px;
   color: rgb(80, 183, 61);
@@ -371,10 +365,10 @@ body {
   font-weight: bold;
   text-decoration: overline;
   text-transform: uppercase;
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: rgb(110, 20, 59);
 }
-.developerRLetter {
+span.developerRLetter {
   border-color: rgb(186, 180, 141);
   bottom: 15px;
   color: rgb(99, 21, 196);
@@ -382,13 +376,13 @@ body {
   font-weight: normal;
   text-decoration: line-through;
   text-transform: uppercase;
-  font-family: Piazzolla, sans-serif;
+  font-family: "Piazzolla", sans-serif;
   background-color: rgb(182, 101, 229);
 }
 
 /* TAKE word */
 
-.takeTLetter {
+span.takeTLetter {
   border-color: rgb(183, 171, 233);
   bottom: 2px;
   color: rgb(72, 52, 204);
@@ -399,7 +393,7 @@ body {
   font-family: "Ceviche One", sans-serif;
   background-color: rgb(194, 151, 174);
 }
-.takeALetter {
+span.takeALetter {
   border-color: rgb(245, 176, 10);
   bottom: 9px;
   color: rgb(233, 50, 216);
@@ -410,7 +404,7 @@ body {
   font-family: "Ceviche One", sans-serif;
   background-color: rgb(93, 56, 208);
 }
-.takeKLetter {
+span.takeKLetter {
   bottom: 12px;
   color: rgb(121, 62, 71);
   font-size: 43px;
@@ -420,20 +414,20 @@ body {
   font-family: "Poetsen One", sans-serif;
   background-color: rgb(96, 133, 103);
 }
-.takeELetter {
+span.takeELetter {
   top: 6px;
   color: rgb(185, 148, 145);
   font-size: 44px;
   font-weight: normal;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: Piazzolla, sans-serif;
+  font-family: "Piazzolla", sans-serif;
   background-color: rgb(170, 105, 59);
 }
 
 /* UP word */
 
-.upULetter {
+span.upULetter {
   border-color: rgb(101, 101, 224);
   top: 17px;
   color: rgb(36, 225, 135);
@@ -441,10 +435,10 @@ body {
   font-weight: normal;
   text-decoration: line-through;
   text-transform: uppercase;
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: rgb(44, 161, 44);
 }
-.upPLetter {
+span.upPLetter {
   border-color: rgb(194, 130, 117);
   top: 4px;
   color: rgb(100, 83, 215);
@@ -458,7 +452,7 @@ body {
 
 /* GARDENING word */
 
-.gardeningGLetter {
+span.gardeningGLetter {
   border-color: rgb(43, 56, 157);
   bottom: 11px;
   color: rgb(25, 80, 106);
@@ -469,7 +463,7 @@ body {
   font-family: "Ceviche One", sans-serif;
   background-color: rgb(94, 197, 111);
 }
-.gardeningALetter {
+span.gardeningALetter {
   border-color: rgb(218, 125, 194);
   bottom: 5px;
   color: rgb(255, 13, 232);
@@ -480,7 +474,7 @@ body {
   font-family: "Raleway Dots", sans-serif;
   background-color: rgb(28, 19, 236);
 }
-.gardeningRLetter {
+span.gardeningRLetter {
   border-color: rgb(240, 221, 9);
   top: 0px;
   color: rgb(252, 141, 19);
@@ -488,10 +482,10 @@ body {
   font-weight: bold;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: Piazzolla, sans-serif;
+  font-family: "Piazzolla", sans-serif;
   background-color: rgb(244, 51, 22);
 }
-.gardeningDLetter {
+span.gardeningDLetter {
   border-color: rgb(228, 237, 75);
   top: 4px;
   color: rgb(211, 12, 34);
@@ -499,10 +493,10 @@ body {
   font-weight: bold;
   text-decoration: none;
   text-transform: lowercase;
-  font-family: Piazzolla, sans-serif;
+  font-family: "Piazzolla", sans-serif;
   background-color: rgb(58, 242, 11);
 }
-.gardeningELetter {
+span.gardeningELetter {
   border-color: rgb(68, 177, 53);
   bottom: 6px;
   color: rgb(198, 209, 7);
@@ -510,10 +504,10 @@ body {
   font-weight: normal;
   text-decoration: line-through;
   text-transform: lowercase;
-  font-family: Piazzolla, sans-serif;
+  font-family: "Piazzolla", sans-serif;
   background-color: rgb(85, 44, 247);
 }
-.gardeningNLetter {
+span.gardeningNLetter {
   border-color: rgb(182, 95, 103);
   top: 0px;
   color: rgb(195, 63, 220);
@@ -524,7 +518,7 @@ body {
   font-family: "Poetsen One", sans-serif;
   background-color: rgb(111, 149, 202);
 }
-.gardeningILetter {
+span.gardeningILetter {
   border-color: rgb(93, 217, 147);
   top: 15px;
   color: rgb(194, 27, 216);
@@ -534,7 +528,7 @@ body {
   text-transform: lowercase;
   font-family: "Raleway Dots", sans-serif;
 }
-.gardeningNTwoLetter {
+span.gardeningNTwoLetter {
   border-color: rgb(17, 232, 84);
   top: 12px;
   color: rgb(215, 220, 236);
@@ -542,10 +536,10 @@ body {
   font-weight: bold;
   text-decoration: line-through;
   text-transform: uppercase;
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: rgb(208, 43, 184);
 }
-.gardeningGTwoLetter {
+span.gardeningGTwoLetter {
   border-color: rgb(150, 111, 49);
   top: 14px;
   color: rgb(54, 104, 182);
@@ -559,7 +553,7 @@ body {
 
 /* BECAUSE word */
 
-.becauseBLetter {
+span.becauseBLetter {
   border-color: rgb(181, 59, 24);
   bottom: 14px;
   color: rgb(204, 58, 230);
@@ -567,31 +561,31 @@ body {
   font-weight: normal;
   text-decoration: line-through;
   text-transform: uppercase;
-  font-family: Piazzolla, sans-serif;
+  font-family: "Piazzolla", sans-serif;
   background-color: rgb(91, 251, 209);
 }
-.becauseELetter {
+span.becauseELetter {
   border-color: rgb(24, 1, 108);
   top: 10px;
   color: rgb(20, 21, 97);
   font-size: 42px;
-  font-weight: bold;
+  font-weight: 400;
   text-decoration: line-through;
   text-transform: uppercase;
   font-family: "Ceviche One", sans-serif;
   background-color: rgb(52, 53, 87);
 }
-.becauseCLetter {
+span.becauseCLetter {
   bottom: 11px;
   color: rgb(47, 131, 57);
   font-size: 46px;
   font-weight: bold;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: rgb(120, 98, 39);
 }
-.becauseALetter {
+span.becauseALetter {
   border-color: rgb(108, 231, 225);
   bottom: 16px;
   color: rgb(154, 68, 228);
@@ -599,10 +593,10 @@ body {
   font-weight: bold;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: Piazzolla, sans-serif;
+  font-family: "Piazzolla", sans-serif;
   background-color: rgb(247, 46, 19);
 }
-.becauseULetter {
+span.becauseULetter {
   border-color: rgb(227, 62, 36);
   bottom: 2px;
   color: rgb(34, 42, 115);
@@ -610,10 +604,10 @@ body {
   font-weight: bold;
   text-decoration: line-through;
   text-transform: uppercase;
-  font-family: Piazzolla, sans-serif;
+  font-family: "Piazzolla", sans-serif;
   background-color: rgb(47, 169, 84);
 }
-.becauseSLetter {
+span.becauseSLetter {
   border-color: rgb(52, 242, 21);
   top: 6px;
   color: rgb(108, 54, 69);
@@ -624,7 +618,7 @@ body {
   font-family: "Ceviche One", sans-serif;
   background-color: rgb(75, 192, 78);
 }
-.becauseETwoLetter {
+span.becauseETwoLetter {
   border-color: rgb(93, 150, 77);
   top: 3px;
   color: rgb(206, 255, 198);
@@ -632,13 +626,13 @@ body {
   font-weight: normal;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: rgb(218, 132, 223);
 }
 
 /* THEY word */
 
-.theyTLetter {
+span.theyTLetter {
   border-color: rgb(206, 255, 198);
   bottom: 18px;
   color: rgb(93, 150, 77);
@@ -649,7 +643,7 @@ body {
   font-family: "Raleway Dots", sans-serif;
   background-color: rgb(42, 135, 120);
 }
-.theyHLetter {
+span.theyHLetter {
   border-color: rgb(108, 54, 69);
   top: 7px;
   color: rgb(52, 242, 21);
@@ -660,7 +654,7 @@ body {
   font-family: "Playpen Sans Deva", sans-serif;
   background-color: rgb(237, 79, 15);
 }
-.theyELetter {
+span.theyELetter {
   border-color: rgb(34, 42, 115);
   bottom: 12px;
   color: rgb(227, 62, 36);
@@ -668,10 +662,10 @@ body {
   font-weight: normal;
   text-decoration: overline;
   text-transform: uppercase;
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: rgb(98, 247, 251);
 }
-.theyYLetter {
+span.theyYLetter {
   border-color: rgb(154, 68, 228);
   bottom: 10px;
   color: rgb(108, 231, 225);
@@ -685,7 +679,7 @@ body {
 
 /* WANTED word */
 
-.wantedWLetter {
+span.wantedWLetter {
   border-color: rgb(47, 131, 57);
   top: 8px;
   font-size: 45px;
@@ -695,7 +689,7 @@ body {
   font-family: "Playpen Sans Deva", sans-serif;
   background-color: rgb(179, 23, 146);
 }
-.wantedALetter {
+span.wantedALetter {
   border-color: rgb(20, 21, 97);
   top: 8px;
   color: rgb(24, 1, 108);
@@ -706,7 +700,7 @@ body {
   font-family: "Raleway Dots", sans-serif;
   background-color: rgb(50, 187, 78);
 }
-.wantedNLetter {
+span.wantedNLetter {
   border-color: rgb(204, 58, 230);
   bottom: 17px;
   color: rgb(181, 59, 24);
@@ -714,10 +708,10 @@ body {
   font-weight: bold;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: rgb(242, 62, 82);
 }
-.wantedTLetter {
+span.wantedTLetter {
   border-color: rgb(112, 68, 82);
   top: 8px;
   color: rgb(236, 193, 129);
@@ -728,7 +722,7 @@ body {
   font-family: "Raleway Dots", sans-serif;
   background-color: rgb(128, 157, 226);
 }
-.wantedELetter {
+span.wantedELetter {
   border-color: rgb(54, 104, 182);
   top: 11px;
   color: rgb(150, 111, 49);
@@ -739,7 +733,7 @@ body {
   font-family: "Poetsen One", sans-serif;
   background-color: rgb(98, 18, 149);
 }
-.wantedDLetter {
+span.wantedDLetter {
   border-color: rgb(215, 220, 236);
   top: 14px;
   color: rgb(17, 232, 84);
@@ -753,7 +747,7 @@ body {
 
 /* TO word */
 
-.toTLetter {
+span.toTLetter {
   border-color: rgb(194, 27, 216);
   top: 1px;
   color: rgb(93, 217, 147);
@@ -761,23 +755,23 @@ body {
   font-weight: normal;
   text-decoration: none;
   text-transform: lowercase;
-  font-family: Piazzolla, sans-serif;
+  font-family: "Piazzolla", sans-serif;
 }
-.toOLetter {
+span.toOLetter {
   border-color: rgb(195, 63, 220);
   top: 5px;
   color: rgb(182, 95, 103);
   font-size: 48px;
-  font-weight: normal;
+  font-weight: 400;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: Piazzolla, sans-serif;
+  font-family: "Piazzolla", sans-serif;
   background-color: rgb(98, 132, 203);
 }
 
 /* IMPROVE word */
 
-.improveILetter {
+span.improveILetter {
   border-color: rgb(198, 209, 7);
   bottom: 11px;
   color: rgb(68, 177, 53);
@@ -788,7 +782,7 @@ body {
   font-family: "Poetsen One", sans-serif;
   background-color: rgb(184, 237, 141);
 }
-.improveMLetter {
+span.improveMLetter {
   border-color: rgb(211, 12, 34);
   top: 11px;
   color: rgb(228, 237, 75);
@@ -799,7 +793,7 @@ body {
   font-family: "Ceviche One", sans-serif;
   background-color: rgb(238, 224, 243);
 }
-.improvePLetter {
+span.improvePLetter {
   border-color: rgb(252, 141, 19);
   top: 8px;
   color: rgb(240, 221, 9);
@@ -807,10 +801,10 @@ body {
   font-weight: normal;
   text-decoration: underline;
   text-transform: lowercase;
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: rgb(228, 178, 69);
 }
-.improveRLetter {
+span.improveRLetter {
   border-color: rgb(255, 13, 232);
   top: 3px;
   color: rgb(218, 125, 194);
@@ -821,7 +815,7 @@ body {
   font-family: "Ceviche One", sans-serif;
   background-color: rgb(42, 22, 154);
 }
-.improveOLetter {
+span.improveOLetter {
   border-color: rgb(25, 80, 106);
   bottom: 14px;
   color: rgb(43, 56, 157);
@@ -829,21 +823,21 @@ body {
   font-weight: bold;
   text-decoration: line-through;
   text-transform: uppercase;
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: rgb(198, 2, 34);
 }
-.improveVLetter {
+span.improveVLetter {
   border-color: rgb(100, 83, 215);
   bottom: 2px;
   color: rgb(194, 130, 117);
   font-size: 48px;
-  font-weight: normal;
+  font-weight: 400;
   text-decoration: underline;
   text-transform: lowercase;
   font-family: "Poetsen One", sans-serif;
   background-color: rgb(65, 222, 177);
 }
-.improveELetter {
+span.improveELetter {
   border-color: rgb(36, 225, 135);
   top: 10px;
   color: rgb(101, 101, 224);
@@ -857,27 +851,27 @@ body {
 
 /* THEIR word */
 
-.theirTLetter {
+span.theirTLetter {
   border-color: rgb(185, 148, 145);
   bottom: 19px;
   font-size: 48px;
   font-weight: normal;
   text-decoration: line-through;
   text-transform: uppercase;
-  font-family: Piazzolla, sans-serif;
+  font-family: "Piazzolla", sans-serif;
   background-color: rgb(120, 222, 48);
 }
-.theirHLetter {
+span.theirHLetter {
   border-color: rgb(121, 62, 71);
   top: 11px;
   font-size: 43px;
   font-weight: bold;
   text-decoration: line-through;
   text-transform: lowercase;
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: rgb(230, 195, 180);
 }
-.theirELetter {
+span.theirELetter {
   border-color: rgb(233, 50, 216);
   top: 11px;
   color: rgb(245, 176, 10);
@@ -888,7 +882,7 @@ body {
   font-family: "Raleway Dots", sans-serif;
   background-color: rgb(41, 44, 199);
 }
-.theirILetter {
+span.theirILetter {
   border-color: rgb(72, 52, 204);
   top: 7px;
   color: rgb(183, 171, 233);
@@ -896,10 +890,10 @@ body {
   font-weight: bold;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: Piazzolla, sans-serif;
+  font-family: "Piazzolla", sans-serif;
   background-color: rgb(180, 237, 172);
 }
-.theirRLetter {
+span.theirRLetter {
   border-color: rgb(99, 21, 196);
   top: 19px;
   color: rgb(186, 180, 141);
@@ -913,18 +907,18 @@ body {
 
 /* ROOT word */
 
-.rootRLetter {
+span.rootRLetter {
   border-color: rgb(80, 183, 61);
   top: 0px;
   color: rgb(196, 199, 84);
   font-size: 47px;
-  font-weight: bold;
+  font-weight: 700;
   text-decoration: overline;
   text-transform: uppercase;
   font-family: "Poetsen One", sans-serif;
   background-color: rgb(198, 22, 149);
 }
-.rootOLetter {
+span.rootOLetter {
   border-color: rgb(188, 171, 228);
   bottom: 15px;
   color: rgb(45, 154, 46);
@@ -935,7 +929,7 @@ body {
   font-family: "Ceviche One", sans-serif;
   background-color: rgb(119, 250, 132);
 }
-.rootOTwoLetter {
+span.rootOTwoLetter {
   border-color: rgb(34, 221, 136);
   bottom: 10px;
   color: rgb(53, 1, 19);
@@ -943,10 +937,10 @@ body {
   font-weight: normal;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: rgb(180, 12, 69);
 }
-.rootTLetter {
+span.rootTLetter {
   border-color: rgb(130, 87, 117);
   top: 3px;
   color: rgb(136, 195, 208);
@@ -960,7 +954,7 @@ body {
 
 /* SKILLS word */
 
-.skillsSLetter {
+span.skillsSLetter {
   border-color: rgb(76, 152, 107);
   bottom: 17px;
   color: rgb(199, 138, 12);
@@ -971,7 +965,7 @@ body {
   font-family: "Raleway Dots", sans-serif;
   background-color: rgb(82, 251, 125);
 }
-.skillsKLetter {
+span.skillsKLetter {
   border-color: rgb(245, 115, 231);
   bottom: 2px;
   color: rgb(239, 5, 90);
@@ -982,7 +976,7 @@ body {
   font-family: "Ceviche One", sans-serif;
   background-color: rgb(20, 139, 70);
 }
-.skillsILetter {
+span.skillsILetter {
   border-color: rgb(123, 107, 154);
   top: 18px;
   color: rgb(162, 136, 170);
@@ -990,10 +984,10 @@ body {
   font-weight: bold;
   text-decoration: overline;
   text-transform: uppercase;
-  font-family: Piazzolla, sans-serif;
+  font-family: "Piazzolla", sans-serif;
   background-color: rgb(157, 196, 134);
 }
-.skillsLLetter {
+span.skillsLLetter {
   border-color: rgb(112, 139, 165);
   top: 11px;
   color: rgb(20, 190, 228);
@@ -1004,15 +998,15 @@ body {
   font-family: "Playpen Sans Deva", sans-serif;
   background-color: rgb(58, 118, 198);
 }
-.skillsLTwoLetter {
+span.skillsLTwoLetter {
   font-size: 60px;
-  font-weight: normal;
+  font-weight: 700;
   color: coral;
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Raleway Dots", sans-serif;
 }
-.skillsSTwoLetter {
+span.skillsSTwoLetter {
   border-color: rgb(78, 242, 202);
   bottom: 2px;
   color: rgb(34, 164, 217);
@@ -1020,24 +1014,24 @@ body {
   font-weight: bold;
   text-decoration: overline;
   text-transform: uppercase;
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   background-color: rgb(39, 133, 89);
 }
 
 /* SYMBOLS */
 
-.hyphen {
+span.hyphen {
   border-color: rgb(105, 65, 169);
   top: 6px;
   color: rgb(187, 215, 143);
   font-size: 42px;
-  font-weight: normal;
+  font-weight: 400;
   text-decoration: line-through;
   text-transform: uppercase;
   font-family: "Ceviche One", sans-serif;
   background-color: rgb(16, 43, 124);
 }
-.exclamation-mark {
+span.exclamation-mark {
   border-color: rgb(207, 161, 167);
   top: 3px;
   color: rgb(242, 252, 127);
@@ -1045,15 +1039,15 @@ body {
   font-weight: bold;
   text-decoration: line-through;
   text-transform: uppercase;
-  font-family: Piazzolla, sans-serif;
+  font-family: "Piazzolla", sans-serif;
   background-color: rgb(252, 144, 232);
 }
-.question-mark {
+span.question-mark {
   border-color: rgb(236, 193, 129);
   top: 3px;
   color: rgb(112, 68, 82);
   font-size: 44px;
-  font-weight: bold;
+  font-weight: 700;
   text-decoration: line-through;
   text-transform: lowercase;
   font-family: "Poetsen One", sans-serif;
