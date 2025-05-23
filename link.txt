@@ -1,3 +1,4 @@
 05/16/2025 - started
 05/21/2025 - first turn in attempt/ failed because js was not the point css is,  will attempt again
+05/22/2025 - second turn in attempt
 https://github.com/latoyadsimon/css-ransom-note-unsolved.git
