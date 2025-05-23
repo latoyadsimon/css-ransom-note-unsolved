@@ -1,3 +1,20 @@
 use js to randomize text colors, text size, font family, font weight, bg colors, text transformations, text decorations
 --js was already included for these items, it was just commented out
 isBold only adds bold and normal, need to add 400 and 700
+
+-first attempt at turn in failed: failed because js was not the point css is,  will attempt again
+
+-use replit and codepen
+
+transform is already  set by the code 
+-we need to set everything that was commented out:
+borderColor
+borderToPosition  - top or bottom
+positionOffsetValue - number to go with top or bottom.
+color
+fontSize
+fontWeight
+textDecoration
+textTransform
+fontFamily
+backgroundColor
